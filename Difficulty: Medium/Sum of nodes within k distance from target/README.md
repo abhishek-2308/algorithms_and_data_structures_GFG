@@ -1,0 +1,14 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/sum-of-nodes-within-k-distance-from-target--170637/1?page=6&category=Tree&sortBy=submissions">Sum of nodes within k distance from target</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given the root of a binary tree, a <strong>target </strong>node value, and an integer <strong>k</strong>, return the <strong>sum </strong>of all nodes that are within a distance of <strong>k</strong> from the target node.</span></p>
+<p><span style="font-size: 18px;">The distance between two nodes is defined as the number of edges in the shortest path connecting them.</span></p>
+<p><span style="font-size: 18px;">The target node itself should also be included in the sum.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><strong><span style="font-size: 18px;">Input:</span> </strong><span style="font-size: 18px;"><span style="font-size: 14pt;">K = 1,</span> </span><span style="font-size: 18px;">target = 3, root[] = [1, 2, 3, 4, N, 5, 7, 8, 19, N, N, 20, 11, 30, N, 40, 50]
+
+           <br>          <img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/928012/Web/Other/blobid1_1778239612.png" width="300" height="250"></span>
+<span style="font-size: 18px;"><strong>Output: </strong>16</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>Nodes within distance 1 from 3 are : 1, 5, 7, and 3 itself. So, 1 + 5 + 7 + 3 = 16.</span></pre>
+<pre><strong><span style="font-size: 18px;">Input:</span></strong><span style="font-size: 18px;"> k = 2, target = 40, root[] = [1, 2, 3, 4, N, 5, 7, 8, 19, N, N, 20, 11, 30, N, 40, 50]<br>           <br>          <img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/928012/Web/Other/blobid2_1778239853.png" width="300" height="250"></span><span style="font-size: 18px;">
+<strong>Output: </strong>113</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>Nodes within distance 2 from 40 are: 4, 19, 50, and 40 itself. So, 4 + 19 + 50 + 40 = 113
+</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ n ≤ 10<sup>3</sup>, where n is the number of nodes.<br>1 ≤ data in nodes, target ≤ 10<sup>5</sup><br>1 ≤ k ≤ 20<br></span><span style="font-size: 18px;">All the values in the tree are unique.<br></span><span style="font-size: 18px;">target is the value of a node that exists in the tree.</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Tree</code>&nbsp;
