@@ -16,9 +16,10 @@ class Solution {
         for(int i=1; i<=n; i++){
             vec.emplace_back(i);
         }
-        k= k-1;
+       
         int ans=-1;
         int index=0;
+        k= k-1;
         get_ans(n, k, index, vec, ans);
         return ans;
     }
