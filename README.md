@@ -69,3 +69,19 @@ The goal of this repository is to consistently practice DSA, strengthen problem-
 
 > *"Consistency beats intensity."*  
 > This repository reflects my commitment to continuous learning, disciplined practice, and mastering Data Structures & Algorithms through solving problems on **GeeksforGeeks**.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [2089-find-target-indices-after-sorting-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/2089-find-target-indices-after-sorting-array) |
+## Binary Search
+|  |
+| ------- |
+| [2089-find-target-indices-after-sorting-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/2089-find-target-indices-after-sorting-array) |
+## Sorting
+|  |
+| ------- |
+| [2089-find-target-indices-after-sorting-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/2089-find-target-indices-after-sorting-array) |
+<!---LeetCode Topics End-->
