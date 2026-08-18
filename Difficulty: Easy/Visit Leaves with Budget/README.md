@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/leaf-under-budget/1?page=1&category=Tree,Binary%20Search%20Tree,Binary%20Tree">Visit Leaves with Budget</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given a binary tree&nbsp;and a <strong>budget</strong>.&nbsp;Assume&nbsp;you are at the root of the tree<strong>(level 1)</strong>, you need to maximise the count of&nbsp;leaf nodes you can visit in your budget if the <strong>cost of visiting </strong>a leaf node is equal to the <strong>level of that leaf node</strong>. </span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><span style="font-size: 18px;"><strong>Input: </strong>root[] = [10, 8, </span><span style="font-size: 18px;">2, 3, N, 3, 6, N, N, N, 4</span><span style="font-size: 18px;">], budget = 8</span><strong style="font-size: 18px;"><br></strong></span><span style="font-size: 18px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     &nbsp; <img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/926895/Web/Other/blobid1_1776856866.png" width="206" height="186"></span>
+<span style="font-size: 18px;"><strong>Output: 2</strong></span>
+<span style="font-size: 18px;"><strong>Explanation:</strong></span>
+<span style="font-size: 18px;">Cost For visiting Leaf Node 3: 3
+Cost For visiting Leaf Node 4: 4
+Cost For visiting Leaf Node 6: 3
+In budget 8 one can visit Max 2 Leaf Nodes.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>root[] = [1, 2, 3, 4, 5, 6, 7], budget = 5<strong><br></strong></span>         <img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/926895/Web/Other/blobid2_1776856916.png" width="191" height="127"><br><span style="font-size: 18px;"><strong>Output: </strong>1<br><strong>Explanation:</strong> We can only visit either node 4 or 5.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>root[] = [1], budget = 1</span>         <br><span style="font-size: 18px;"><strong>Output: </strong>1</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1&lt;=N&lt;=10<sup>5</sup><br>1&lt;=budget&lt;=10<sup>4</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Oracle</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Tree</code>&nbsp;
