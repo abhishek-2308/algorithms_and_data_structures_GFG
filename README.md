@@ -75,13 +75,23 @@ The goal of this repository is to consistently practice DSA, strengthen problem-
 ## Array
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0209-minimum-size-subarray-sum) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Binary Search
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0209-minimum-size-subarray-sum) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Sorting
 |  |
 | ------- |
 | [2089-find-target-indices-after-sorting-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/2089-find-target-indices-after-sorting-array) |
+## Sliding Window
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0209-minimum-size-subarray-sum) |
+## Prefix Sum
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
