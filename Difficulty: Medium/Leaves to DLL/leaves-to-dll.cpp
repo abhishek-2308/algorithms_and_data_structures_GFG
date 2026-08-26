@@ -11,6 +11,8 @@ class Node {
 	}
 };
 */
+
+//  Approach 1 not Optimal but works....
 class Solution {
 	private:
 	Node* remove_leve_nodes(Node* root, vector<Node*> &vec) {
@@ -45,4 +47,54 @@ class Solution {
 		
 		return vec[0];
 	}
+};
+
+
+
+//  Optimal Expected Approach..
+/* Binary Tree Node Structure
+class Node {
+  public:
+    int data;
+    Node *left;
+    Node *right;
+
+    Node(int val) {
+       data = val;
+       left = right = nullptr;
+    }
+};
+*/
+class Solution {
+    private:
+    Node* prev= nullptr;
+    Node* head= nullptr;
+  public:
+  Node* get_DLL(Node* root){
+      if(!root){
+          return nullptr;
+      }
+      if(!root->left and !root->right){
+          if(!head){
+              head= root;
+          }
+          if(prev){
+              prev->right= root;
+              root->left= prev;
+          }
+          prev= root;
+          return nullptr;
+      }
+     root->left= get_DLL(root->left);
+     root->right= get_DLL(root->right);
+     return root;
+  }
+    Node* convertToDLL(Node* root) {
+        // code here
+        get_DLL(root);
+        if(prev){
+            prev->right = nullptr;
+        }
+        return head;
+    }
 };
