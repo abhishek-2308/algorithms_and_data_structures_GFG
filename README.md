@@ -94,4 +94,24 @@ The goal of this repository is to consistently practice DSA, strengthen problem-
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0209-minimum-size-subarray-sum) |
+## Linked List
+|  |
+| ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0114-flatten-binary-tree-to-linked-list) |
+## Stack
+|  |
+| ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0114-flatten-binary-tree-to-linked-list) |
+## Tree
+|  |
+| ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0114-flatten-binary-tree-to-linked-list) |
+## Depth-First Search
+|  |
+| ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0114-flatten-binary-tree-to-linked-list) |
+## Binary Tree
+|  |
+| ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0114-flatten-binary-tree-to-linked-list) |
 <!---LeetCode Topics End-->
