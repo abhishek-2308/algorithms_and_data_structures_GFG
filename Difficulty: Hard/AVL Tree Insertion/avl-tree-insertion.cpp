@@ -56,18 +56,21 @@ class Solution {
         root->height=1+ max(get_height(root->left), get_height(root->right));
         
         int balance= get_balance(root);
-        if(balance > 1 and key<root->left->data){
+        if (balance > 1 && get_balance(root->left) >= 0) {
             return right_rotation(root);
         }
-        else if(balance < -1 and key>root->right->data){
+
+        if (balance > 1 && get_balance(root->left) < 0) {
+            root->left = left_rotation(root->left);
+            return right_rotation(root);
+        }
+
+        if (balance < -1 && get_balance(root->right) <= 0) {
             return left_rotation(root);
         }
-        else if (balance > 1 and key > root->left->data){
-            root->left= left_rotation(root->left);
-            return right_rotation(root);
-        }
-        else if(balance < -1 and root->right->data > key){
-            root->right= right_rotation(root->right);
+
+        if (balance < -1 && get_balance(root->right) > 0) {
+            root->right = right_rotation(root->right);
             return left_rotation(root);
         }
         else return root;
