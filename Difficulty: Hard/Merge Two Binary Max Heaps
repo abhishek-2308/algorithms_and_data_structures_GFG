@@ -1,1 +1,30 @@
+#include <bits/stdc++.h> 
+void push_element(int ele,  vector<int> &ans, int &size){
+    size++;
+    int index= size;
+    ans[index]= ele;
+    while(index>0){
+        int parent= (index-1)/2;
+        if(ans[parent]< ans[index]){
+            swap(ans[parent], ans[index]);
+            index= parent;
+        }
+        else{
+            return;
+        }
+    }
+}
+vector<int> mergeHeap(int n, int m, vector<int> &arr1, vector<int> &arr2) {
+    // Write your code here
+    int total_size= n+m;
+    int size= -1;
+    vector<int> ans(total_size);
+    for(int i=0; i<n; i++){
+        push_element(arr1[i], ans, size);
 
+    }
+    for(int i=0; i<m; i++){
+        push_element(arr2[i], ans, size);
+    }
+    return ans;
+}
