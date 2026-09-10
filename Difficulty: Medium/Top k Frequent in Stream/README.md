@@ -1,0 +1,15 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/top-k-numbers3425/1">Top k Frequent in Stream</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18.6667px;">Given an array <strong>arr[]</strong> of integers and an integer <strong>k</strong>, traverse the array from left to right. After processing each element, find the k most frequent elements so far.</span></p>
+<p><span style="font-size: 18.6667px;">For each step, form an array containing these elements sorted according to the following rules:&nbsp;</span></p>
+<ul>
+<li><span style="font-size: 18.6667px;">Elements with higher frequency appear first.</span></li>
+<li><span style="font-size: 18.6667px;">If two elements have the same frequency, the smaller element appears first.</span></li>
+</ul>
+<p><span style="font-size: 18.6667px;">If the number of distinct elements encountered so far is less than <strong>k</strong>, include all of them.</span></p>
+<p><span style="font-size: 18.6667px;">Return a 2D array where the i-th row contains the top frequent elements after processing arr[i].</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>k<strong> </strong>= 4, arr[] = [5, 2, 1, 3, 2] 
+<strong>Output:</strong> [[5], [2, 5], [1, 2, 5], [1, 2, 3, 5], [2, 1, 3, 5]] 
+<strong>Explanation</strong>: Firstly there was 5 whose frequency is max till now. So resulting sequence is [5]. <br>Then came 2, which is smaller than 5 but their frequencies are same so resulting sequence is [2, 5]. <br>Then came 1, which is the smallest among all the numbers arrived, so resulting sequence is [1, 2, 5]. <br>Then came 3 , so resulting sequence is [1, 2, 3, 5].<br>Then again 2, which has the highest frequency among all numbers, so resulting sequence is [2, 1, 3, 5].</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>k = 3, arr[] = [2, 1, 2, 1, 2, 1] 
+<strong>Output:</strong> [[2], [1, 2], [2, 1], [1, 2], [2, 1], [1, 2]]<br><strong>Explanation: </strong>As total number of distinct values never exceeds 2, you need to return only those two values. <br>In the case where frequency of 1 gets equal with the frequency of 2, you have to keep 1 before 2 in the array.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ n ≤ 10<sup>4<br></sup>1 ≤ k ≤ 10<sup>2</sup><sup><br></sup>1 ≤ arr[i] ≤ 10<sup>2</sup><sup>&nbsp;</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Accolite</code>&nbsp;<code>Amazon</code>&nbsp;<code>Media.net</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Map</code>&nbsp;<code>Priority Queue</code>&nbsp;
