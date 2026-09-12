@@ -76,6 +76,7 @@ The goal of this repository is to consistently practice DSA, strengthen problem-
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0209-minimum-size-subarray-sum) |
+| [1354-construct-target-array-with-multiple-sums](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/1354-construct-target-array-with-multiple-sums) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Binary Search
 |  |
@@ -114,4 +115,8 @@ The goal of this repository is to consistently practice DSA, strengthen problem-
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0114-flatten-binary-tree-to-linked-list) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1354-construct-target-array-with-multiple-sums](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/1354-construct-target-array-with-multiple-sums) |
 <!---LeetCode Topics End-->
