@@ -76,6 +76,7 @@ The goal of this repository is to consistently practice DSA, strengthen problem-
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0209-minimum-size-subarray-sum) |
+| [0912-sort-an-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0912-sort-an-array) |
 | [1354-construct-target-array-with-multiple-sums](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/1354-construct-target-array-with-multiple-sums) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Binary Search
@@ -86,6 +87,7 @@ The goal of this repository is to consistently practice DSA, strengthen problem-
 ## Sorting
 |  |
 | ------- |
+| [0912-sort-an-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0912-sort-an-array) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Sliding Window
 |  |
@@ -118,5 +120,26 @@ The goal of this repository is to consistently practice DSA, strengthen problem-
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0912-sort-an-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0912-sort-an-array) |
 | [1354-construct-target-array-with-multiple-sums](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/1354-construct-target-array-with-multiple-sums) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0912-sort-an-array) |
+## Merge Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0912-sort-an-array) |
+## Bucket Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0912-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0912-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->
