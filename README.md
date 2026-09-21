@@ -87,6 +87,7 @@ The goal of this repository is to consistently practice DSA, strengthen problem-
 ## Sorting
 |  |
 | ------- |
+| [0147-insertion-sort-list](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0147-insertion-sort-list) |
 | [0912-sort-an-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0912-sort-an-array) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Sliding Window
@@ -101,6 +102,7 @@ The goal of this repository is to consistently practice DSA, strengthen problem-
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0147-insertion-sort-list](https://github.com/abhishek-2308/algorithms_and_data_structures_GFG/tree/master/0147-insertion-sort-list) |
 ## Stack
 |  |
 | ------- |
