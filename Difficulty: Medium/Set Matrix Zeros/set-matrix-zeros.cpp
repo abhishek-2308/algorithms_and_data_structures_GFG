@@ -1,25 +1,40 @@
 class Solution {
-    private:
-    void set_zero(vector<vector<int>> &arr, int i, int j){
-        for(int k=0; k<arr[i].size(); k++){
-            arr[i][k]=0;
-        }
-        for(int k=0; k<arr.size(); k++){
-            arr[k][j]=0;
-        }
-        
-    }
   public:
     void setMatrixZeroes(vector<vector<int>> &mat) {
         // code here
-        vector<vector<int>> arr= mat;
+        int col0=1;
         for(int i=0; i<mat.size(); i+=1){
             for(int j=0; j<mat[i].size(); j+=1){
                 if(mat[i][j]==0){
-                    set_zero(arr,i, j);
+                    mat[i][0]=0;
+                    if(j != 0){
+                        mat[0][j]=0;
+                    }
+                    else{
+                        col0=0;
+                    }
                 }
             }
         }
-        mat= arr;
+        for(int i=1; i<mat.size(); i++){
+            for(int j=1; j<mat[0].size(); j+=1){
+                if(mat[i][j]!=0){
+                    if(mat[0][j]==0 or mat[i][0]==0){
+                        mat[i][j]=0;
+                    }
+                }
+            }
+        }
+        if(mat[0][0]==0){
+            for(int j= 0;j<mat[0].size(); j+=1){
+                mat[0][j]=0;
+            }
+        }
+        if(col0==0){
+            for(int i=0; i<mat.size(); i+=1){
+                mat[i][0]=0;
+            }
+        }
+        
     }
 };
